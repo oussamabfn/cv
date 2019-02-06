@@ -1,0 +1,36 @@
+body {
+ background-color: white; 
+ font-family: calibri; 
+ font-size: 100%;
+ }
+h1
+{
+font-family: calibri;
+}
+h2 {
+ margin:10px;
+ padding:5px;
+ background-color:#009090
+;
+ }
+ul{
+ 
+ margin:10px;}
+p{
+
+ margin:10px;
+padding:5px;
+}
+pre
+{
+ padding:10px;
+
+
+}
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Définit la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Définit la largeur de l'élément comme étant 100% de la largeur de l'écran */
+}
